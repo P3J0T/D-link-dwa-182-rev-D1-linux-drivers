@@ -3,7 +3,8 @@
 Download offical drivers
 https://support.dlink.com/ProductInfo.aspx?m=DWA-182
 
-add this to Makefile 
+add this to Makefile:
+
 EXTRA_CFLAGS += -Wno-error=date-time
 
 make && make install
